@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 env/  
-# don't want to upload env/ to the remote repo
+# don't want to upload env/ to the 
 
 # C extensions
 *.so

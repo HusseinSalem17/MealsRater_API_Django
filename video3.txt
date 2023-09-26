@@ -1,0 +1,15 @@
+1. https://127.0.0.1:8080/api/meals/meal_pk/rate_meal ==> POST
+    request data = stars
+    request user = user or user name
+    stars + user from request
+    pk from url
+    end point to update\create rate for specific meal using Meal ViewSet not rate
+    views > add the custom function with the @action decorator
+
+2. Meal list API to show the averae rating and number of ratings
+    models > add custom function\method in the model to calculate the avg and sum
+    serializers > add the avg and sum to the fields
+
+
+** Better to write the business in the model file that is related to the model
+models in django make caching, but views be load on computing

@@ -1,0 +1,8 @@
+CORS
+    pip install django-cors-headers
+    settings > installed apps > 'corsheaders'
+    settings > MIDDLEWARE
+    'corsheader.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    settings >
+    se

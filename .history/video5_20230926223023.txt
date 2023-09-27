@@ -1,0 +1,4 @@
+CORS
+    pip install django-cors-headers
+    settings > installed apps > 'corsheaders'
+    

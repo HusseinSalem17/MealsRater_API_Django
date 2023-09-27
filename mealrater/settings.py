@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "corsheaders",
     "rest_framework",
     "api",
     "rest_framework.authtoken",
@@ -51,8 +50,8 @@ INSTALLED_APPS = [
 
 
 MIDDLEWARE = [
-    "corsheader.middleware.CorsMiddleware",
-    "django.middleware.common.CommonMiddleware",
+    # "corsheader.middleware.CorsMiddleware",
+    # "django.middleware.common.CommonMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -62,12 +61,12 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
-    "http://localhost:8080",
-    "http://127.0.0.1:9000",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://example.com",
+#     "https://sub.example.com",
+#     "http://localhost:8080",
+#     "http://127.0.0.1:9000",
+# ]
 
 ROOT_URLCONF = "mealrater.urls"
 
